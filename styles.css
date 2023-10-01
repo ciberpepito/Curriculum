@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3a3a3a; /* Nuevo color de fondo */
+    color: #fefefe; /* Nuevo color de fuente */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3a3a3a; /* Nuevo color de fondo para el container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #f8b207; /* Nuevo color de fondo para títulos */
+}
+
+h2 {
+    color: #f8b207; /* Nuevo color de fondo para títulos */
+    border-bottom: 2px solid #f8b207; /* Nuevo color de fondo para títulos */
+    padding-bottom: 8px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+p {
+    color: #fefefe; /* Nuevo color de fuente */
+}
+
+/* Estilos de la foto de perfil */
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la lista de habilidades */
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    color: #fefefe; /* Nuevo color de fuente */
+    margin-bottom: 5px;
+}
+
+.skills i {
+    color: #f8b207; /* Nuevo color de fondo para títulos */
+    margin-right: 5px;
+}
+
+/* Estilos de los enlaces */
+button {
+    background-color: #f8b207; /* Nuevo color de fondo para títulos */
+    color: #fefefe; /* Nuevo color de fuente */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c5a006; /* Nuevo color de fondo en estado hover */
+}
+
+/* Estilos de la experiencia laboral */
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience i {
+    margin-right: 5px;
+    color: #f8b207; /* Nuevo color de fondo para títulos */
+}
+
+/* Estilos de la sección de estudios */
+.education {
+    margin-bottom: 20px;
+}
+
+.education i {
+    margin-right: 5px;
+    color: #f8b207; /* Nuevo color de fondo para títulos */
+}
